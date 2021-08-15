@@ -4,13 +4,16 @@
 
 //Опишите три случая: когда х = числу, строке или логическому типу. В других случаях выводите сообщение: «Тип x не определён».
 
-let x = '5';
-if (typeof x === "string") {
-  console.log("x-string");
-} else if (typeof x === "number") {
-  console.log("x-number");
-} else if (typeof x === "boolean") {
-  console.log("x-boolean");
-} else {
-  console.log("type x - is undefined");
+let x = null;
+if (typeof x === 'number') {
+   console.log('X - число');
+   }
+else if (typeof x === "string") {
+  console.log('X - string')
+}
+else if (typeof x === 'boolean') {
+    console.log('X - Boolean')
+}
+else  {
+  console.log('X - undefined')
 }
