@@ -4,6 +4,6 @@
 
 let arr = ["I", "learn", "JS", true, 6];
 console.log(arr.length);
-for (let a = 0; a < arr.length; a++) {
-  console.log(arr[a]);
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
 }
